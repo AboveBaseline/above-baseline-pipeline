@@ -121,7 +121,13 @@ def save_drafts(drafts):
             'generated_at': datetime.now().isoformat(),
             'stories': drafts
         }, f, indent=2)
-
+    # ALSO save as latest.json for dashboard auto-load
+    with open("drafts/latest.json", 'w') as f:
+        json.dump({
+            'date': TODAY,
+            'generated_at': datetime.now().isoformat(),
+            'stories': drafts
+        }, f, indent=2)
     print(f"✓ Drafts saved to {filename}")
     return filename
 

@@ -178,8 +178,8 @@ def post_to_wordpress(story):
     server = xmlrpc.client.ServerProxy(xmlrpc_url, transport=transport)
 
     cat_id = CATEGORY_IDS.get(story['category'], 7)
-
-   content = f"""<p>{story['content']}</p>
+    
+    content = f"""<p>{story['content']}</p>
 
 <p><strong>Source:</strong> <a href="{story.get('source_url', '#')}" target="_blank" rel="noopener">{story['source_name']}</a></p>"""
 

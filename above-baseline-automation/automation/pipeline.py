@@ -81,8 +81,8 @@ def fetch_real_articles():
     return articles[:10]
   
 def generate_story_drafts():
+    """Use OpenAI to find current stories and write Above Baseline drafts."""  
     articles = fetch_real_articles()
-    """Use OpenAI to find current stories and write Above Baseline drafts."""
     client = OpenAI(api_key=OPENAI_KEY)
 
     print(f"\n=== Above Baseline Morning Pipeline — {TODAY} ===\n")
@@ -179,9 +179,9 @@ def post_to_wordpress(story):
 
     cat_id = CATEGORY_IDS.get(story['category'], 7)
 
-    content = f"""<p>{story['content']}</p>
+   content = f"""<p>{story['content']}</p>
 
-<p><strong>Source:</strong> <a href="{story.get('source_url', '#')}" target="_blank" rel="noopener">{story['source_name']}</a></p>
+<p><strong>Source:</strong> <a href="{story.get('source_url', '#')}" target="_blank" rel="noopener">{story['source_name']}</a></p>"""
 
     post_data = {
         'post_title':   story['title'],

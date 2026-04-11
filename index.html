@@ -479,6 +479,34 @@ async function publishApproved() {
   document.getElementById('publish-btn').disabled = false;
   setTimeout(() => setStatus('', false), 5000);
 }
+  async function autoLoadLatest() {
+  try {
+    const res = await fetch('drafts/latest.json');
+    if (!res.ok) throw new Error('No JSON found');
+
+    const data = await res.json();
+
+    stories = (data.stories || []).map((s, i) => ({
+      ...s,
+      id: i,
+      approved: false,
+      rejected: false,
+      posted: false,
+      open: false
+    }));
+
+    document.getElementById('draft-date-label').textContent =
+      `Drafts for ${data.date || 'today'} — ${stories.length} stories`;
+
+    document.getElementById('load-panel').style.display = 'none';
+    document.getElementById('stories-section').style.display = 'block';
+
+    renderStories();
+
+  } catch (e) {
+    console.log('Auto load failed, using manual upload');
+  }
+}
 </script>
 </body>
 </html>

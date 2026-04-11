@@ -22,6 +22,7 @@ import os
 import json
 import xmlrpc.client
 import ssl
+import feedparser
 from datetime import datetime
 from openai import OpenAI
 
@@ -59,67 +60,68 @@ DATE_FOR_WP = datetime.now().strftime('%Y-%m-%dT04:00:00')
 # ─────────────────────────────────────────
 # STEP 1: FIND & WRITE STORY DRAFTS
 # ─────────────────────────────────────────
+def fetch_real_articles():
+    feeds = [
+        "https://www.fiercebiotech.com/rss/xml",
+        "https://endpts.com/feed/",
+        "https://www.biopharmadive.com/feeds/news/",
+    ]
+
+    articles = []
+
+    for url in feeds:
+        feed = feedparser.parse(url)
+        for entry in feed.entries[:5]:
+            articles.append({
+                "title": entry.title,
+                "url": entry.link,
+                "source": feed.feed.title if "title" in feed.feed else "Unknown"
+            })
+
+    return articles[:10]
+  
 def generate_story_drafts():
+    articles = fetch_real_articles()
     """Use OpenAI to find current stories and write Above Baseline drafts."""
     client = OpenAI(api_key=OPENAI_KEY)
 
     print(f"\n=== Above Baseline Morning Pipeline — {TODAY} ===\n")
     print("Generating story drafts with OpenAI...")
 
-    prompt = f"""You are a scientific editor writing for a CRO-focused drug development intelligence briefing.
+    prompt = f"""You are a CRO-focused scientific editor.
 
 Today is {TODAY}.
 
-Your task is to generate 6 HIGH-QUALITY, technically grounded story drafts.
+Below are REAL news articles. Use ONLY these.
 
-CRITICAL REQUIREMENTS:
-- Every story MUST be based on a REAL, verifiable recent development (FDA decision, clinical trial result, company announcement, regulatory guidance, or peer-reviewed publication)
-- The source_name must be real (e.g. FDA, NEJM, Nature Biotechnology, company press release)
-- The source_url must be a REAL, VALID, WORKING URL
-- If you are not confident the URL is real, DO NOT include that story
+Articles:
+{json.dumps(articles, indent=2)}
 
-CONTENT REQUIREMENTS:
-- 6–8 sentences per story (NOT 3–4)
-- Include specific technical details:
-  - drug names
-  - company names
-  - modality (ADC, mAb, small molecule, etc.)
-  - clinical phase or regulatory status
-  - endpoints or key findings if applicable
-- Explicitly explain WHY this matters for CROs:
-  - bioanalysis
-  - assay development
-  - CMC/manufacturing
-  - PK/PD
-  - regulatory strategy
+TASK:
+Write 6 story drafts based ONLY on these articles.
 
-STYLE:
-- Analytical, not promotional
-- No generic summaries
-- No vague statements like "this is important"
-- Every sentence must add information
+RULES:
+- Do NOT invent news
+- Do NOT change URLs
+- Use the exact article URL provided
+- You may combine similar stories if needed
 
-CATEGORIES (use exactly one per story):
-- Small Molecule
-- ADCs
-- ADA & Immunogenicity
-- PK/PD
-- My Picks
+CONTENT:
+- 5–7 sentences
+- Include CRO-relevant implications (bioanalysis, CMC, PK/PD, regulatory)
 
-OUTPUT FORMAT:
-Return ONLY valid JSON array. No markdown. No explanation.
-
-Each object must be:
+Return JSON only:
 
 {{
-  "title": "Specific, factual headline (max 15 words)",
-  "category": "one of: Small Molecule, ADCs, ADA & Immunogenicity, PK/PD, My Picks",
-  "content": "6–8 sentence technically detailed analysis focused on CRO implications",
-  "source_name": "Real publication or organization",
-  "source_url": "REAL working URL (must not be fabricated)",
+  "title": "...",
+  "category": "...",
+  "content": "...",
+  "source_name": "...",
+  "source_url": "...",
   "read_time": "3 min read",
   "date": "{TODAY}"
 }}
+"""
 
 FAILURE RULE:
 If you cannot confidently provide real sources and URLs, return fewer stories instead of fabricating.

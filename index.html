@@ -430,14 +430,15 @@ function setStatus(text, visible=true) {
 async function publishApproved() {
   const wpUrl = document.getElementById('wp-url').value.trim().replace(/\/$/, '') ||
                 prompt('Enter your WordPress URL (e.g. https://abovebaseline.blog):');
-  localStorage.setItem('wp_url', wpUrl);
   const wpUser = document.getElementById('wp-user').value.trim() || prompt('WordPress username:');
-  localStorage.setItem('wp_user', wpUser);
   const wpPass = document.getElementById('wp-pass').value.trim() || prompt('WordPress password:');
-  localStorage.setItem('wp_pass', wpPass);
   
   if (!wpUrl || !wpUser || !wpPass) { alert('WordPress credentials required.'); return; }
 
+    localStorage.setItem('wp_url', wpUrl);
+    localStorage.setItem('wp_user', wpUser);
+    localStorage.setItem('wp_pass', wpPass);
+  
   const approved = stories.filter(s => s.approved && !s.posted);
   document.getElementById('publish-btn').disabled = true;
 

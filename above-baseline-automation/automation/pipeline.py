@@ -66,32 +66,64 @@ def generate_story_drafts():
     print(f"\n=== Above Baseline Morning Pipeline — {TODAY} ===\n")
     print("Generating story drafts with OpenAI...")
 
-    prompt = f"""You are the editor of Above Baseline, a drug development news blog for CRO professionals.
+    prompt = f"""You are a scientific editor writing for a CRO-focused drug development intelligence briefing.
 
 Today is {TODAY}.
 
-Write 6 story drafts for today's edition. Cover a mix of these areas:
-- ADC development (linker chemistry, DAR, conjugation, clinical data)
-- ADA & immunogenicity (assay development, regulatory guidance, NAb testing)
-- PK/PD (population modeling, bioanalytical methods, dose optimization)
-- Small molecule (formulation, BCS, process development)
-- Gene/cell therapy (AAV, CAR-T, manufacturing, safety)
-- mRNA/LNPs (delivery, formulation, clinical programs)
-- Regulatory (FDA/EMA guidance, IND, BLA, approval decisions)
-- Industry (CRO/CDMO deals, M&A, major program updates)
+Your task is to generate 6 HIGH-QUALITY, technically grounded story drafts.
 
-Write from the perspective of a CRO professional. Be neutral and factual. Focus on what developments mean for drug development, manufacturing, and analytical work. No hype, no clickbait.
+CRITICAL REQUIREMENTS:
+- Every story MUST be based on a REAL, verifiable recent development (FDA decision, clinical trial result, company announcement, regulatory guidance, or peer-reviewed publication)
+- The source_name must be real (e.g. FDA, NEJM, Nature Biotechnology, company press release)
+- The source_url must be a REAL, VALID, WORKING URL
+- If you are not confident the URL is real, DO NOT include that story
 
-Return ONLY a valid JSON array. No markdown fences, no preamble. Each object must have:
+CONTENT REQUIREMENTS:
+- 6–8 sentences per story (NOT 3–4)
+- Include specific technical details:
+  - drug names
+  - company names
+  - modality (ADC, mAb, small molecule, etc.)
+  - clinical phase or regulatory status
+  - endpoints or key findings if applicable
+- Explicitly explain WHY this matters for CROs:
+  - bioanalysis
+  - assay development
+  - CMC/manufacturing
+  - PK/PD
+  - regulatory strategy
+
+STYLE:
+- Analytical, not promotional
+- No generic summaries
+- No vague statements like "this is important"
+- Every sentence must add information
+
+CATEGORIES (use exactly one per story):
+- Small Molecule
+- ADCs
+- ADA & Immunogenicity
+- PK/PD
+- My Picks
+
+OUTPUT FORMAT:
+Return ONLY valid JSON array. No markdown. No explanation.
+
+Each object must be:
+
 {{
-  "title": "Clear factual headline, max 15 words",
+  "title": "Specific, factual headline (max 15 words)",
   "category": "one of: Small Molecule, ADCs, ADA & Immunogenicity, PK/PD, My Picks",
-  "content": "3-4 sentence post. What happened, what was found, why it matters to CRO/pharma professionals. Include specific details like mechanisms, numbers, or implications.",
-  "source_name": "Publication or organization name (e.g. NEJM, FDA.gov, Nature Biotechnology)",
-  "source_url": "Realistic URL to the type of source this would come from",
+  "content": "6–8 sentence technically detailed analysis focused on CRO implications",
+  "source_name": "Real publication or organization",
+  "source_url": "REAL working URL (must not be fabricated)",
   "read_time": "3 min read",
   "date": "{TODAY}"
-}}"""
+}}
+
+FAILURE RULE:
+If you cannot confidently provide real sources and URLs, return fewer stories instead of fabricating.
+"""
 
     response = client.chat.completions.create(
         model="gpt-4o",

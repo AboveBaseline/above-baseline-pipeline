@@ -121,7 +121,6 @@ Return JSON only:
   "read_time": "3 min read",
   "date": "{TODAY}"
 }}
-"""
 
 FAILURE RULE:
 If you cannot confidently provide real sources and URLs, return fewer stories instead of fabricating.

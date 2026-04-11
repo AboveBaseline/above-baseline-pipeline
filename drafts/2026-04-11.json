@@ -1,5 +1,51 @@
 {
   "date": "April 11, 2026",
-  "generated_at": "2026-04-11T20:42:30.606315",
-  "stories": []
+  "generated_at": "2026-04-11T21:03:59.020522",
+  "stories": [
+    {
+      "title": "FDA Rejects Replimune's Melanoma Therapy Again",
+      "category": "Regulatory",
+      "content": "Replimune's melanoma therapy has faced another setback as the FDA rejected its application for the second time. The agency cited unresolved doubts regarding the trial data, which could have significant implications for the company's regulatory strategy and clinical trial design. CROs involved in bioanalysis and PK/PD studies may need to reassess their approaches to ensure data integrity and compliance with FDA standards. This decision underscores the importance of robust clinical trial data and regulatory compliance in drug development.",
+      "source_name": "Endpoints News",
+      "source_url": "https://endpoints.news/fda-rejects-replimune-cancer-therapy-saying-company-didnt-resolve-trial-doubts/",
+      "read_time": "3 min read",
+      "date": "April 11, 2026"
+    },
+    {
+      "title": "China's Oricell Raises $110M for CAR-T Development",
+      "category": "Investment",
+      "content": "Oricell Biotech has successfully raised $110 million to advance its carcinoma CAR-T therapy plans, with an IPO push on the horizon. This funding round highlights the growing interest in innovative cancer therapies and the potential for CROs to engage in early-phase bioanalysis and CMC activities. The influx of capital could accelerate Oricell's development timelines, necessitating efficient project management and regulatory navigation to meet market demands.",
+      "source_name": "Fierce Biotech",
+      "source_url": "https://www.fiercebiotech.com/biotech/chinas-oricell-raises-100m-carcinoma-car-t-plans-ahead-ipo-push",
+      "read_time": "3 min read",
+      "date": "April 11, 2026"
+    },
+    {
+      "title": "Vivatides and Life Bio Secure Significant Funding",
+      "category": "Investment",
+      "content": "Vivatides has raised $54 million in a Series A funding round, while Life Bio has attracted $80 million in investments. These fundraising efforts reflect a robust interest in biotech innovations, providing opportunities for CROs to partner in bioanalytical and CMC services. The capital influx will likely support the advancement of their respective pipelines, emphasizing the need for strategic planning and regulatory expertise to navigate the complexities of drug development.",
+      "source_name": "Fierce Biotech",
+      "source_url": "https://www.fiercebiotech.com/biotech/fierce-biotech-fundraising-tracker-26",
+      "read_time": "3 min read",
+      "date": "April 11, 2026"
+    },
+    {
+      "title": "Big Pharma Ventures into Quantum Computing",
+      "category": "Innovation",
+      "content": "The pharmaceutical industry is exploring the potential of quantum computing to revolutionize drug discovery and development. This technological leap could transform bioanalysis and PK/PD modeling, offering unprecedented computational power to solve complex biological problems. CROs may need to adapt to these advancements, integrating quantum computing capabilities into their service offerings to remain competitive in a rapidly evolving landscape.",
+      "source_name": "Fierce Biotech",
+      "source_url": "https://www.fiercebiotech.com/biotech/can-it-actually-deliver-why-big-pharma-has-entered-quantum-realm",
+      "read_time": "3 min read",
+      "date": "April 11, 2026"
+    },
+    {
+      "title": "China's CRISPR Therapy Challenges US Drugmakers",
+      "category": "Competition",
+      "content": "A new CRISPR therapy from a Chinese biotech firm is poised to challenge US drugmakers, highlighting the competitive landscape in gene editing technologies. This development may prompt CROs to enhance their bioanalytical and CMC capabilities to support advanced gene therapy projects. As global competition intensifies, regulatory strategies and compliance will be critical for companies seeking to maintain a competitive edge.",
+      "source_name": "Endpoints News",
+      "source_url": "https://endpoints.news/china-biotechs-crispr-therapy-suggests-us-drugmakers-will-face-competition/",
+      "read_time": "3 min read",
+      "date": "April 11, 2026"
+    }
+  ]
 }

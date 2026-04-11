@@ -182,7 +182,7 @@ def post_to_wordpress(story):
 
     content = f"""<p>{story['content']}</p>
 
-<p><strong>Source:</strong> <a href="{story.get('source_url', '#')}" target="_blank" rel="noopener">{story['source_name']} ↗</a></p>"""
+<p><strong>Source:</strong> <a href="{story.get('source_url', '#')}" target="_blank" rel="noopener">{story['source_name']}</a></p>
 
     post_data = {
         'post_title':   story['title'],

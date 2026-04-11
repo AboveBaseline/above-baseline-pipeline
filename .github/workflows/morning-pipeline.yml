@@ -1,1 +1,47 @@
 
+name: Above Baseline Morning Pipeline
+
+on:
+  schedule:
+    # Runs at 4:00 AM Central Time (9:00 AM UTC)
+    - cron: '0 9 * * *'
+  workflow_dispatch:  # Also allows manual trigger from GitHub UI
+
+jobs:
+  generate-drafts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install openai requests
+
+      - name: Generate story drafts
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_PASSWORD: ${{ secrets.WP_PASSWORD }}
+        run: python pipeline.py
+
+      - name: Save drafts as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-drafts-${{ github.run_id }}
+          path: drafts/
+          retention-days: 7
+
+      - name: Commit drafts to repository
+        run: |
+          git config --global user.email "pipeline@abovebaseline.blog"
+          git config --global user.name "Above Baseline Pipeline"
+          git add drafts/
+          git diff --staged --quiet || git commit -m "Daily drafts: $(date +%Y-%m-%d)"
+          git push

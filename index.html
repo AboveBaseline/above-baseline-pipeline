@@ -434,10 +434,6 @@ async function publishApproved() {
   const wpPass = document.getElementById('wp-pass').value.trim() || prompt('WordPress password:');
   
   if (!wpUrl || !wpUser || !wpPass) { alert('WordPress credentials required.'); return; }
-
-    localStorage.setItem('wp_url', wpUrl);
-    localStorage.setItem('wp_user', wpUser);
-    localStorage.setItem('wp_pass', wpPass);
   
   const approved = stories.filter(s => s.approved && !s.posted);
   document.getElementById('publish-btn').disabled = true;
@@ -512,12 +508,6 @@ async function publishApproved() {
   }
 }
   autoLoadLatest();
-  // Load saved WP credentials (if any)
-  document.addEventListener('DOMContentLoaded', () => {
-  document.getElementById('wp-url').value = localStorage.getItem('wp_url') || '';
-  document.getElementById('wp-user').value = localStorage.getItem('wp_user') || '';
-  document.getElementById('wp-pass').value = localStorage.getItem('wp_pass') || '';
-});
 </script>
 </body>
 </html>

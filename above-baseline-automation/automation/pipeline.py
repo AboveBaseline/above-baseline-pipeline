@@ -128,7 +128,7 @@ If you cannot confidently provide real sources and URLs, return fewer stories in
     response = client.chat.completions.create(
         model="gpt-4o",
         messages=[{"role": "user", "content": prompt}],
-        temperature=0.7,
+        temperature=0.3,
     )
 
     raw = response.choices[0].message.content.strip()

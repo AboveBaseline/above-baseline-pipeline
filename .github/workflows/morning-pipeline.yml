@@ -1,6 +1,9 @@
 
 name: Above Baseline Morning Pipeline
 
+permissions:
+  contents: write
+  
 on:
   schedule:
     # Runs at 4:00 AM Central Time (9:00 AM UTC)

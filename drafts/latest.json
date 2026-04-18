@@ -1,58 +1,44 @@
 {
   "date": "April 18, 2026",
-  "generated_at": "2026-04-18T11:10:23.957636",
+  "generated_at": "2026-04-18T15:16:29.041396",
   "stories": [
     {
-      "title": "FDA Veteran Pazdur Raises Concerns Over Political Influence",
-      "category": "Regulatory",
-      "content": "In a recent address at the AACR, FDA veteran Richard Pazdur expressed concerns about the increasing political influence on the agency, which he believes is contributing to a 'sense of anxiety' among stakeholders. This situation may impact regulatory timelines and decision-making processes, affecting clinical research organizations (CROs) involved in bioanalysis and regulatory submissions. The potential for political interference could lead to changes in the regulatory landscape, necessitating adaptive strategies for CROs to maintain compliance and efficiency.",
+      "title": "FDA Veteran Warns of Political Influence and Anxiety Within Agency",
+      "category": "My Picks",
+      "excerpt": "FDA veteran Richard Pazdur expresses concerns over political influence affecting the agency's operations. This raises questions about regulatory integrity and drug approval processes.",
+      "content": "Richard Pazdur, a veteran of the FDA, has voiced significant concerns regarding the current state of the agency, highlighting the impact of political influence and a pervasive sense of anxiety among its ranks. Pazdur's remarks come at a time when the FDA's role in drug approvals is under intense scrutiny, potentially affecting the pace and integrity of new drug evaluations. For CROs and biotech companies, this development underscores the importance of maintaining rigorous compliance and transparency in regulatory submissions to navigate potential shifts in FDA dynamics effectively.",
       "source_name": "Fierce Biotech",
       "source_url": "https://www.fiercebiotech.com/biotech/fda-veteran-pazdur-bemoans-state-agency-warns-political-influence",
       "read_time": "3 min read",
       "date": "April 18, 2026"
     },
     {
-      "title": "Merck's PD-1xVEGF Bispecific Data Unveiled at AACR",
-      "category": "Clinical Research",
-      "content": "Merck has revealed promising data for its PD-1xVEGF bispecific antibody in non-small cell lung cancer (NSCLC) at the AACR meeting. While the company remains tight-lipped about its phase 3 plans, the data could have significant implications for CROs involved in pharmacokinetics (PK) and pharmacodynamics (PD) studies. The development of bispecific antibodies requires precise bioanalytical methods, and CROs may play a crucial role in supporting these complex clinical trials.",
+      "title": "Merck's PD-1xVEGF Bispecific Shows Promise in NSCLC",
+      "category": "PK/PD",
+      "excerpt": "Merck reveals promising data for its PD-1xVEGF bispecific in non-small cell lung cancer but remains silent on phase 3 plans. This could signal a strategic shift in oncology drug development.",
+      "content": "Merck has unveiled encouraging data from its PD-1xVEGF bispecific antibody in treating non-small cell lung cancer (NSCLC), although the company has not disclosed its plans for phase 3 trials. This bispecific approach targets both the PD-1 and VEGF pathways, potentially offering a novel therapeutic angle in oncology. For CROs and biotech firms, this highlights the growing importance of bispecific antibodies in cancer treatment and the need for robust PK/PD modeling to optimize dosing strategies and enhance therapeutic efficacy.",
       "source_name": "Fierce Biotech",
       "source_url": "https://www.fiercebiotech.com/biotech/merck-debuts-pd-1xvegf-bispecific-data-nsclc-remains-tight-lipped-phase-3-plans",
       "read_time": "3 min read",
       "date": "April 18, 2026"
     },
     {
-      "title": "UCB's Strategic Expansion into Regenerative Medicine",
-      "category": "Business Development",
-      "content": "UCB has announced a major acquisition of Neurona for over $650 million, marking a strategic expansion into regenerative medicine. This move highlights the growing interest in advanced therapeutic modalities and the need for specialized CMC (Chemistry, Manufacturing, and Controls) capabilities. CROs with expertise in regenerative medicine and advanced therapies may find new opportunities for collaboration and service offerings as the industry continues to evolve.",
+      "title": "UCB's $650M Acquisition of Neurona Expands Regenerative Medicine Portfolio",
+      "category": "My Picks",
+      "excerpt": "UCB's acquisition of Neurona marks a strategic expansion into regenerative medicine, highlighting the sector's growing importance. This move could reshape therapeutic approaches and investment strategies.",
+      "content": "UCB has announced its acquisition of Neurona for over $650 million, signaling a strategic expansion into the regenerative medicine sector. This acquisition aligns with UCB's ambitions to advance its portfolio in innovative therapeutic areas, particularly those involving advanced cellular therapies. For CROs and biotech companies, this acquisition emphasizes the increasing focus on regenerative medicine, encouraging stakeholders to consider strategic partnerships and investments in this rapidly evolving field.",
       "source_name": "Fierce Biotech",
       "source_url": "https://www.fiercebiotech.com/biotech/ucbs-115b-deal-neurona-touches-several-ambitions-including-strategic-expansion-advanced",
       "read_time": "3 min read",
       "date": "April 18, 2026"
     },
     {
-      "title": "OpenAI Launches Biotech-Specific AI Model GPT-Rosalind",
-      "category": "Technology",
-      "content": "OpenAI has introduced GPT-Rosalind, a new AI model designed specifically for the biotech industry. This development could revolutionize data analysis and predictive modeling in clinical trials, offering CROs advanced tools for bioanalysis and data management. The integration of AI in biotech could streamline processes, enhance accuracy, and reduce timelines, providing a competitive edge for CROs that adopt these technologies.",
+      "title": "OpenAI Introduces GPT-Rosalind for Biotech Applications",
+      "category": "My Picks",
+      "excerpt": "OpenAI launches GPT-Rosalind, a biotech-specific AI model designed to enhance research and development. This innovation could transform data analysis and decision-making in biotech.",
+      "content": "OpenAI has launched GPT-Rosalind, a new AI model specifically tailored for the biotech industry, aiming to streamline research and development processes. This model is expected to enhance data analysis capabilities, providing more precise insights and accelerating decision-making in drug development and other biotech applications. For CROs and biotech companies, GPT-Rosalind represents a significant advancement in AI-driven research, urging stakeholders to integrate such technologies to improve efficiency and innovation in their projects.",
       "source_name": "Fierce Biotech",
       "source_url": "https://www.fiercebiotech.com/biotech/openai-launches-biotech-specific-ai-model-gpt-rosalind",
-      "read_time": "3 min read",
-      "date": "April 18, 2026"
-    },
-    {
-      "title": "RevMed's Success and FDA's Peptide Reclassification",
-      "category": "Regulatory",
-      "content": "RevMed has achieved significant success, prompting the FDA to consider reclassifying peptides. This reclassification could impact regulatory pathways and requirements for peptide-based therapeutics, affecting CROs involved in regulatory submissions and compliance. CROs may need to adjust their strategies to align with new regulatory standards, ensuring that peptide therapeutics meet updated safety and efficacy criteria.",
-      "source_name": "Endpoints News",
-      "source_url": "https://endpoints.news/revmeds-stunning-success-fda-to-reclassify-peptides-foundayo-safety-info-requested-and-more/",
-      "read_time": "3 min read",
-      "date": "April 18, 2026"
-    },
-    {
-      "title": "Trevi Raises $150M and New Biotech Fund Established",
-      "category": "Finance",
-      "content": "Trevi Therapeutics has successfully raised $150 million, and a new biotech fund has been established by Spain and Boston. This influx of capital into the biotech sector could lead to increased demand for CRO services, particularly in the areas of clinical trial management and bioanalytical support. The establishment of the fund highlights the growing investment interest in biotech, providing opportunities for CROs to expand their service offerings and client base.",
-      "source_name": "Endpoints News",
-      "source_url": "https://endpoints.news/trevi-raises-150m-spain-and-boston-set-up-biotech-fund/",
       "read_time": "3 min read",
       "date": "April 18, 2026"
     }

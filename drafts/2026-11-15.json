@@ -1,0 +1,36 @@
+{
+  "date": "November 15, 2026",
+  "generated_at": "2026-11-15T16:07:04.364113",
+  "stories": [
+    {
+      "title": "FDA Rejects Summit's Ivonescimab, Stalling PD-1xVEGF Class in the US",
+      "category": "PK/PD",
+      "excerpt": "The FDA has rejected Summit Therapeutics' ivonescimab, a PD-1 and VEGF inhibitor, delaying its anticipated entry into the US market. This decision impacts the future of combination therapies in oncology.",
+      "content": "The FDA has rejected Summit Therapeutics' application for ivonescimab, a promising PD-1 and VEGF inhibitor designed for non-small cell lung cancer (NSCLC). This setback delays the entry of the much-anticipated PD-1xVEGF class into the US market, which has been closely watched for its potential to enhance cancer treatment efficacy by targeting both immune checkpoints and angiogenesis pathways. \n\nThis rejection is significant as it highlights the regulatory challenges faced by combination therapies in oncology, particularly those targeting multiple pathways. The decision underscores the importance of robust clinical data to support the efficacy and safety of such novel therapeutic approaches, which are crucial in advancing treatment paradigms for complex diseases like cancer.\n\nFor CROs and biotech companies, this development emphasizes the need for comprehensive PK/PD modeling and biomarker strategies to support regulatory submissions. It also highlights the importance of designing studies that can effectively demonstrate the synergistic effects of combination therapies, ensuring that they meet the stringent requirements of regulatory bodies.",
+      "source_name": "Fierce Biotech",
+      "source_url": "https://www.fiercebiotech.com/pharma/fda-rejects-summit-therapeutics-pd-1-vegf-ivonescimab-nsclc",
+      "read_time": "3 min read",
+      "date": "November 15, 2026"
+    },
+    {
+      "title": "Charles River Acquires Frontage Bioanalysis Labs for $470M",
+      "category": "My Picks",
+      "excerpt": "Charles River Laboratories has acquired two bioanalysis labs from Frontage in Pennsylvania for $470 million. This move strengthens its position in the bioanalysis sector.",
+      "content": "Charles River Laboratories has announced the acquisition of two bioanalysis labs from Frontage Laboratories, owned by Tigermed, for $470 million. This strategic acquisition enhances Charles River's capabilities in bioanalysis, a critical component of drug development that supports pharmacokinetic and toxicology studies.\n\nThe acquisition reflects the growing demand for bioanalytical services as the complexity of drug development increases, particularly in the areas of biologics and advanced therapies. By expanding its bioanalysis footprint, Charles River positions itself to better serve the needs of pharmaceutical and biotech companies seeking robust analytical support for their drug development pipelines.\n\nFor CROs and sponsors, this acquisition signals a trend towards consolidation in the bioanalysis sector, emphasizing the importance of integrated service offerings. Companies should consider partnerships or acquisitions that enhance their analytical capabilities, ensuring they can meet the evolving demands of drug development and regulatory compliance.",
+      "source_name": "Fierce Biotech",
+      "source_url": "https://www.fiercebiotech.com/cro/charles-river-shells-out-470m-tigermed-owned-frontage-bioanalysis-business",
+      "read_time": "3 min read",
+      "date": "November 15, 2026"
+    },
+    {
+      "title": "Rezolute's Phase 3 Success in Tumor Hyperinsulinism Boosts Prospects",
+      "category": "PK/PD",
+      "excerpt": "Rezolute has reported a Phase 3 success in treating tumor-induced hyperinsulinism, ahead of an FDA meeting. This milestone could pave the way for new treatment options.",
+      "content": "Rezolute has achieved a significant milestone with a successful Phase 3 trial for its treatment targeting tumor-induced hyperinsulinism, providing a boost ahead of an upcoming FDA meeting. This success positions Rezolute to potentially offer a new therapeutic option for a condition characterized by excessive insulin production due to tumors, which can lead to severe hypoglycemia.\n\nThe positive trial results are crucial as they demonstrate the drug's efficacy and safety, potentially filling a gap in the treatment landscape for this rare endocrine disorder. The outcome of the FDA meeting will be pivotal in determining the drug's market entry and its role in addressing unmet medical needs.\n\nFor CROs and biotech firms, Rezolute's progress underscores the importance of precise PK/PD modeling and study design in rare disease drug development. It highlights the need for strategic planning in clinical trials to ensure that endpoints are robust and clinically meaningful, facilitating smoother regulatory pathways.",
+      "source_name": "Fierce Biotech",
+      "source_url": "https://www.fiercebiotech.com/biotech/rezolute-gets-uplift-phase-3-win-ahead-fda-meeting",
+      "read_time": "3 min read",
+      "date": "November 15, 2026"
+    }
+  ]
+}

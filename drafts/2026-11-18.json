@@ -1,0 +1,46 @@
+{
+  "date": "November 18, 2026",
+  "generated_at": "2026-11-18T17:51:10.922779",
+  "stories": [
+    {
+      "title": "Biogen's Tau Therapy Shows Enhanced Efficacy in Alzheimer's Over Two Years",
+      "category": "PK/PD",
+      "excerpt": "Biogen's tau-targeting therapy for Alzheimer's disease demonstrates increased benefits after two years, offering hope for long-term treatment efficacy.",
+      "content": "Biogen's tau therapy for Alzheimer's disease has shown improved efficacy in a two-year update, indicating that the treatment's benefits increase over time. This development is significant as it suggests that targeting tau proteins, a hallmark of Alzheimer's pathology, could provide sustained therapeutic benefits. The findings could influence future study designs and biomarker strategies, emphasizing the importance of long-term efficacy assessments in neurodegenerative disease treatments.",
+      "source_name": "Fierce Biotech",
+      "source_url": "https://www.fiercebiotech.com/biotech/biogens-tau-therapy-drives-bigger-benefits-2-year-alzheimers-update",
+      "read_time": "3 min read",
+      "date": "November 18, 2026"
+    },
+    {
+      "title": "Pfizer Expands into In Vivo CAR-T with $2.6B Starna Deal",
+      "category": "My Picks",
+      "excerpt": "Pfizer's strategic $2.6 billion deal with China's Starna marks its entry into the in vivo CAR-T therapy space, potentially revolutionizing autoimmune disease treatment.",
+      "content": "Pfizer has announced a $2.6 billion deal with China's Starna to develop in vivo CAR-T therapies, marking a significant expansion into this innovative therapeutic area. This move underscores the growing interest in in vivo approaches, which promise to simplify manufacturing and improve patient access compared to traditional ex vivo CAR-T therapies. For CROs and biotech companies, this highlights the need to adapt to emerging in vivo methodologies, which could reshape the landscape of cell therapy development and regulatory strategies.",
+      "source_name": "Fierce Biotech",
+      "source_url": "https://www.fiercebiotech.com/biotech/pfizer-enters-vivo-car-t-space-3-program-26b-deal-chinas-starna",
+      "read_time": "3 min read",
+      "date": "November 18, 2026"
+    },
+    {
+      "title": "Roche's Breast Cancer Pill Giredestrant Gains FDA Approval",
+      "category": "Small Molecule",
+      "excerpt": "The FDA has approved Roche's giredestrant for breast cancer, offering a new oral treatment option for patients.",
+      "content": "Roche's giredestrant, a novel oral selective estrogen receptor degrader (SERD), has received FDA approval for the treatment of breast cancer. This approval provides a new therapeutic option that could improve patient adherence and outcomes compared to injectable SERDs. For formulation scientists and regulatory teams, this highlights the importance of optimizing oral bioavailability and ensuring robust clinical data to support regulatory submissions for small molecule therapies.",
+      "source_name": "BioPharma Dive - Latest News",
+      "source_url": "https://www.biopharmadive.com/news/roche-fda-approve-wilserdly-giredestrant-breast-cancer/874884/",
+      "read_time": "3 min read",
+      "date": "November 18, 2026"
+    },
+    {
+      "title": "AI Drugmaker Isomorphic Secures $5B for Drug Discovery",
+      "category": "My Picks",
+      "excerpt": "Isomorphic Labs raises $5 billion to advance AI-driven drug discovery, signaling a significant investment in computational approaches to drug development.",
+      "content": "Isomorphic Labs has successfully raised $5 billion to further its AI-driven drug discovery initiatives, highlighting the increasing reliance on artificial intelligence in pharmaceutical research. This substantial funding round reflects growing confidence in AI's potential to accelerate drug discovery and reduce costs. For CROs and biotech companies, this trend underscores the need to integrate AI and machine learning into their research and development processes to remain competitive and innovative in the evolving drug discovery landscape.",
+      "source_name": "BioPharma Dive - Latest News",
+      "source_url": "https://www.biopharmadive.com/news/isomorphic-labs-ai-drug-discovery-financing/874863/",
+      "read_time": "3 min read",
+      "date": "November 18, 2026"
+    }
+  ]
+}

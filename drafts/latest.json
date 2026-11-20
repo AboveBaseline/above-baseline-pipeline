@@ -1,26 +1,46 @@
 {
-  "date": "November 19, 2026",
-  "generated_at": "2026-11-19T18:00:12.428034",
+  "date": "November 20, 2026",
+  "generated_at": "2026-11-20T17:36:37.015439",
   "stories": [
+    {
+      "title": "Merck's TROP2 ADC Shows Promise in Gastroesophageal Cancer Trial",
+      "category": "ADCs",
+      "excerpt": "Merck's TROP2-targeting ADC has extended survival in a pivotal trial for gastroesophageal cancer, highlighting its potential impact on treatment paradigms.",
+      "content": "Merck's antibody-drug conjugate (ADC) targeting TROP2 has demonstrated a significant extension in survival for patients with gastroesophageal cancer in a pivotal clinical trial. This promising result positions the ADC as a potential new treatment option for a cancer type that often has limited therapeutic avenues.\nThe success of this trial underscores the growing importance of ADCs in oncology, particularly for hard-to-treat cancers. By effectively targeting TROP2, a protein overexpressed in various cancers, Merck's ADC could alter existing treatment protocols and improve patient outcomes.\nFor CROs and biotech companies, this development emphasizes the critical role of linker stability and drug-to-antibody ratio (DAR) characterization in ADC development. Ensuring robust bioanalytical assay design will be crucial for advancing similar therapies through clinical trials and regulatory approval.",
+      "source_name": "Fierce Biotech",
+      "source_url": "https://www.fiercebiotech.com/biotech/mercks-trop2-adc-extends-survival-pivotal-gastroesophageal-cancer-trial",
+      "read_time": "3 min read",
+      "date": "November 20, 2026"
+    },
+    {
+      "title": "FDA Delays Decision on Belite's Eye Disease Pill",
+      "category": "Small Molecule",
+      "excerpt": "The FDA has postponed its decision on Belite's eye disease pill, pushing the timeline back by three months.",
+      "content": "The FDA has announced a three-month delay in its decision regarding Belite's eye disease pill, originally expected soon. This postponement extends the review period to May, affecting the company's timeline for potential market entry.\nSuch delays can impact strategic planning and resource allocation for companies awaiting regulatory decisions. For the broader field, this highlights the complexities and unpredictabilities inherent in the regulatory approval process for novel therapeutics.\nFor CROs and project managers, this delay underscores the importance of flexibility in project timelines and the need for robust formulation strategies that can withstand extended review periods. Understanding the regulatory landscape and preparing for potential delays can mitigate risks associated with drug development.",
+      "source_name": "Fierce Biotech",
+      "source_url": "https://www.fiercebiotech.com/biotech/fda-delays-belites-eye-disease-pill-decision-three-months-may",
+      "read_time": "3 min read",
+      "date": "November 20, 2026"
+    },
     {
       "title": "Sanofi's Gaucher Disease Pill Gains FDA Approval",
       "category": "Small Molecule",
-      "excerpt": "Sanofi's oral treatment for Gaucher disease, Infilbray, receives FDA approval, marking a significant advancement in therapeutic options for this rare condition.",
-      "content": "Sanofi has received FDA approval for Infilbray, a new oral medication designed to treat Gaucher disease. The drug, which contains the active ingredient venglustat, offers a non-invasive alternative to enzyme replacement therapies currently available for this rare genetic disorder. This approval represents a crucial step forward in providing more convenient treatment options for patients suffering from Gaucher disease.\n\nThe approval of Infilbray is significant as it introduces a small molecule therapy that can be administered orally, potentially improving patient compliance and quality of life. Gaucher disease, characterized by the accumulation of fatty substances in certain organs, has traditionally been managed with intravenous enzyme replacement therapies. Infilbray's mechanism of action involves inhibiting the enzyme glucosylceramide synthase, thereby reducing the production of glucosylceramide, a lipid that accumulates in patients with Gaucher disease.\n\nFor CROs and biotech companies, this approval underscores the importance of formulation strategies that enhance bioavailability and patient adherence. The success of Infilbray could encourage further exploration of oral small molecule therapies for other lysosomal storage disorders. Companies should consider the implications of this shift towards more patient-friendly administration routes in their drug development pipelines.",
+      "excerpt": "Sanofi has received FDA approval for its Gaucher disease pill, marking a significant advancement in treatment options for this rare condition.",
+      "content": "Sanofi's new oral therapy for Gaucher disease has received FDA clearance, offering a novel treatment option for patients with this rare lysosomal storage disorder. The approval of this small molecule drug represents a significant milestone in the management of Gaucher disease, traditionally treated with enzyme replacement therapies.\nThis approval could shift the treatment landscape for Gaucher disease, providing patients with a more convenient oral alternative to intravenous therapies. It also highlights the potential of small molecule drugs to address unmet needs in rare diseases.\nFor CROs and biotech firms, this development emphasizes the importance of formulation strategies that enhance bioavailability and patient compliance. As oral therapies gain traction, understanding solid-state considerations and BCS class implications will be crucial for successful drug development and market entry.",
       "source_name": "BioPharma Dive - Latest News",
       "source_url": "https://www.biopharmadive.com/news/sanofi-fda-infilbray-venglustat-approve-gaucher/875167/",
       "read_time": "3 min read",
-      "date": "November 19, 2026"
+      "date": "November 20, 2026"
     },
     {
-      "title": "Regeneron's RNAi Drug for Autoimmune Disease Approved by FDA",
-      "category": "PK/PD",
-      "excerpt": "Regeneron's RNAi therapeutic, cemdisiran, receives FDA approval for treating myasthenia gravis, highlighting the growing role of RNAi in autoimmune disease management.",
-      "content": "The FDA has approved Regeneron's cemdisiran, an RNA interference (RNAi) drug, for the treatment of myasthenia gravis, an autoimmune neuromuscular disorder. This marks a significant milestone as it is one of the first RNAi therapies approved for an autoimmune condition, expanding the therapeutic potential of RNAi technology beyond its traditional applications. Cemdisiran works by silencing specific genes involved in the autoimmune response, offering a novel mechanism of action for disease management.\n\nThis approval is pivotal as it demonstrates the versatility and expanding scope of RNAi therapeutics in addressing complex diseases like myasthenia gravis. RNAi technology, which involves the targeted degradation of messenger RNA, allows for precise modulation of disease-related pathways. The success of cemdisiran could pave the way for further RNAi-based interventions in other autoimmune and inflammatory diseases, potentially transforming treatment paradigms.\n\nFor CROs and biotech firms, the approval of cemdisiran highlights the importance of robust PK/PD modeling approaches in the development of RNAi therapeutics. Understanding the pharmacokinetics and pharmacodynamics of RNAi drugs is crucial for optimizing dose selection and therapeutic efficacy. Companies should invest in advanced modeling techniques and biomarker strategies to support the development of next-generation RNAi therapies.",
+      "title": "China's Biopharma Strategy Raises Global Concerns",
+      "category": "My Picks",
+      "excerpt": "A U.S. panel warns that China's new biopharma strategy could dominate the sector, impacting global supply chains and market dynamics.",
+      "content": "A recent report from a U.S. panel has raised alarms over China's strategic plan to potentially 'corner' the global biopharma sector. This initiative could significantly alter supply chains and market dynamics, with implications for international biopharma companies.\nThe report suggests that China's aggressive investment and policy strategies could lead to a dominant position in the biopharma industry, raising concerns about global competitiveness and supply chain security. This development is crucial for stakeholders to monitor, as it could influence regulatory policies and market access strategies.\nFor CROs and biotech companies, understanding the implications of China's biopharma strategy is vital. Companies should consider diversifying supply chains and exploring strategic partnerships to mitigate potential risks associated with geopolitical shifts in the biopharma landscape.",
       "source_name": "BioPharma Dive - Latest News",
-      "source_url": "https://www.biopharmadive.com/news/regeneron-fda-approve-cemdisiran-livsayis-myasthenia-gravis-alnylam/875160/",
+      "source_url": "https://www.biopharmadive.com/news/us-china-biotech-report-commission-supply-chain-2026/875170/",
       "read_time": "3 min read",
-      "date": "November 19, 2026"
+      "date": "November 20, 2026"
     }
   ]
 }

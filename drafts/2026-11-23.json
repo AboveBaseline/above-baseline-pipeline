@@ -1,0 +1,36 @@
+{
+  "date": "November 23, 2026",
+  "generated_at": "2026-11-23T20:55:51.805105",
+  "stories": [
+    {
+      "title": "Lilly Acquires LoQus23 to Bolster Huntington's Disease Pipeline",
+      "category": "My Picks",
+      "excerpt": "Eli Lilly's acquisition of LoQus23 for up to $725 million strengthens its position in the Huntington's disease market. The deal highlights the growing interest in neurodegenerative disorders.",
+      "content": "Eli Lilly has announced the acquisition of LoQus23 Therapeutics, a company focused on developing treatments for Huntington's disease, in a deal potentially worth $725 million. This acquisition underscores Lilly's commitment to expanding its pipeline in neurodegenerative diseases, an area of significant unmet medical need. LoQus23's lead program targets the reduction of mutant huntingtin protein, a key driver of Huntington's pathology.\n\nThe acquisition is significant as it reflects the increasing focus on neurodegenerative disorders, which have historically been challenging due to complex pathologies and limited treatment options. Lilly's investment in LoQus23 could accelerate the development of novel therapies for Huntington's disease, potentially offering new hope for patients and families affected by this debilitating condition.\n\nFor CROs and biotech companies, this move signals a growing opportunity in the neurodegenerative space. Companies should consider investing in technologies and methodologies that support the development of treatments for these complex diseases, including advanced bioanalytical techniques and robust clinical trial designs that can address the unique challenges of neurodegenerative drug development.",
+      "source_name": "BioPharma Dive - Latest News",
+      "source_url": "https://www.biopharmadive.com/news/lilly-loqus-huntingtons-drug-acquisition-deal/875448/",
+      "read_time": "3 min read",
+      "date": "November 23, 2026"
+    },
+    {
+      "title": "FDA Rejects Capricor's Duchenne Cell Therapy Again",
+      "category": "My Picks",
+      "excerpt": "Capricor's cell therapy for Duchenne muscular dystrophy faces another setback as the FDA issues a rejection. This highlights ongoing challenges in cell therapy approvals.",
+      "content": "The FDA has once again rejected Capricor Therapeutics' cell therapy, Deramiocel, intended for the treatment of Duchenne muscular dystrophy (DMD). This marks another hurdle for Capricor as it seeks to bring its innovative therapy to market, highlighting the regulatory challenges faced by cell therapies in gaining approval.\n\nThis rejection is significant as it underscores the rigorous standards and complexities involved in the approval of cell-based therapies. The FDA's decision may prompt other companies in the cell therapy space to re-evaluate their clinical strategies and regulatory submissions to ensure they meet the stringent requirements for safety and efficacy.\n\nFor CROs and biotech firms, this development emphasizes the importance of robust clinical trial design and comprehensive regulatory strategies. Companies should focus on ensuring their cell therapy products demonstrate clear clinical benefits and adhere to regulatory guidelines to improve their chances of successful approval.",
+      "source_name": "BioPharma Dive - Latest News",
+      "source_url": "https://www.biopharmadive.com/news/capricor-fda-duchenne-cell-therapy-deramiocel/875384/",
+      "read_time": "3 min read",
+      "date": "November 23, 2026"
+    },
+    {
+      "title": "Erasca's Data Puts Pressure on Revolution's Cancer Drug",
+      "category": "PK/PD",
+      "excerpt": "Erasca's promising data on a KRAS-targeted drug adds competitive pressure on Revolution Medicines' cancer therapy. This could impact future PK/PD strategies.",
+      "content": "Erasca has released new data on its KRAS-targeted drug for pancreatic cancer, intensifying competition for Revolution Medicines' RASONQUE, a breakthrough cancer therapy. The data suggests that Erasca's candidate may offer a viable alternative in the challenging landscape of KRAS-mutated cancers, which are notoriously difficult to treat.\n\nThis development is crucial as it highlights the competitive dynamics in the oncology field, particularly in targeting KRAS mutations. The emergence of multiple promising candidates could lead to a shift in treatment paradigms, offering more options for patients and potentially improving outcomes in a historically difficult-to-treat cancer type.\n\nFor CROs and drug developers, the evolving landscape underscores the need for advanced PK/PD modeling approaches to optimize dose selection and biomarker strategies. As competition intensifies, companies must ensure their clinical programs are designed to demonstrate clear differentiation and therapeutic benefit to succeed in this competitive market.",
+      "source_name": "BioPharma Dive - Latest News",
+      "source_url": "https://www.biopharmadive.com/news/erasca-kras-pancreatic-cancer-drug-results-revolution-rasonque/875314/",
+      "read_time": "3 min read",
+      "date": "November 23, 2026"
+    }
+  ]
+}
